@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= DM+Serif+Display & display=swap');
+
+body {
+font-family: 'DM Serif Display', serif;
+background-color: #E1F5FE;
+}
+
+body header{
+    background-color: #4DD0E1;
+    padding: 30px;
+}
+
+body header h1 {
+    color: #ffff;
+}
+
+body header nav {
+    background-color: #B2DFDB;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+body header nav a {
+    background-color: #DCEDC8;
+    color: black;
+    text-decoration: none;
+    padding: 0px 12px 0px 12px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 5px 6px #A7FFEB;
+}
+
+body header nav a:hover{
+    background-color:   #4DD0E1;
+}
+
+.js{
+    padding-left: 30px;
+}

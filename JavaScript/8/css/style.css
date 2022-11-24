@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    background-color:#AED6F1;
+    display: flex;
+    height: 100vh;
+}
+
+.container{
+
+    background-color: #D6EAF8;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 19px 20px 8px -9px #ABB2B9;
+    width: 400px;
+    max-width: 100%;
+    color: #154360;
+    
+}
+
+header{
+
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+#formUser{
+
+    padding: 30px 20px;
+    
+}
+.form-control{
+
+    position: relative;
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+}
+
+.form-control label{
+
+    display: inline-block;
+    margin-bottom: 7px;
+    font:weight 200px;
+}
+
+.form-control input{
+
+    border: none;
+    font-size: 16px;
+    display: block;
+    padding: 12px;
+    width: 100%;
+    background-color: #D7DBDD;
+}
+
+.form-control, input:focus{
+
+    outline: none;
+}
+#formUser input[type="button"]{
+
+    background:blue;
+    border: 1px solid #0944e7;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.form-control p{
+
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    text-align: right;
+    color: #BA4A00;
+}

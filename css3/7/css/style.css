@@ -1,0 +1,31 @@
+*{
+padding: 0%;
+margin: 0%; 
+box-sizing: border-box;   
+}
+
+body{
+    background-color: #FDEDEC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    width: 80%;
+    height: 100vh;
+    background-color: #C21010;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section article{
+    width: 100px;
+    height: 100px;
+    background-color: #E64848;
+    color: white;
+    margin: 10px;
+    
+}

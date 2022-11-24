@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+body {
+   font-family: 'Roboto', sans-serif;
+    background-color: #E0F7FA;
+    text-align: center;
+}
+
+h1{
+    background-color: #4DD0E1;
+    color: #0D47A1;
+    border-radius: 6px;
+    margin-top: 8px;
+    font-size: 40px;
+}
+
+
+form label{
+    background-color: #4DD0E1;
+    color: #0D47A1;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 5px;
+    box-shadow: 0px 2px 0px 2px;
+    font-size: 20px;
+    margin: 0px 28px 0px 10px;
+}
+
+form input{
+    background-color: #4FC3F7;
+    padding: 5px;
+    border-radius: 6px;
+    border-color: #0D47A1;
+}
+
+form button{
+    background-color: #4DD0E1;
+    color: #0D47A1;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: #0D47A1;
+   
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+
+}
+
+
+

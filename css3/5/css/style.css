@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: cursive;
+  font-size: 14px;
+  text-align: center;
+  background: linear-gradient(60deg, #2196F3 50%, #FFF176 50%);
+}
+
+.caja_static {
+    background-color: #F06292;
+    color: #FFFFFF;
+    width: 256px;
+    height: 128px;
+}
+
+.caja_relative {
+    background-color: #F06292;
+    color: #FFFFFF;
+    width: 256px;
+    height: 128px;
+
+    position: relative;
+    left: 48px;
+    top: 48px ;
+}
+
+.padre_relative {
+    background-color: #F06292;
+    color: #FFFFFF;
+    width: autopx;
+    height: 128px;
+    position: relative;
+    left: 48px;
+    top: 48px;
+}
+
+.hijo_absolute1 {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 12px;
+    position: absolute;
+    left: 80px;
+}
+
+.hijo_absolute2 {
+    background-color: #FCE4EC;
+    color: #FF0000;
+    padding: 12px;
+    position: absolute;
+    left: 16px;
+}
+
+.padre_relative1 {
+    background-color: #F06292;
+    color: #FF0000;
+    width: autopx;
+    height: 128px;
+    position: relative;
+    left: 48px;
+    top: 48px;
+}
+
+.hijo_fixed {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 12px;
+    position: fixed;
+    left: 80px;
+}
+
+.hijo_absolute {
+    background-color: #AB47BC;
+    color: #FFFFFF;
+    padding: 12px;
+    position: absolute;
+    left: 16px;
+}
+
+h1 {
+    background-color: #FF0000;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 9px;
+}
+
+a {
+    background-color: #26A69A;
+    color: black;
+    padding: 12px;
+    margin: 16px;
+    border-radius: 25px;
+}
